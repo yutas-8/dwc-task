@@ -1,34 +1,34 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header{
+header {
   height: 50px;
   background-color: #ff9a4b;
- }
+}
 
-main{
+main {
   margin: 50px auto;
   display: flex;
   justify-content: center;
 }
 
-.main-child{
+.main-child {
   width: 960px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.box{
+.box {
   width: 300px;
   background-color: #eeeeee;
   position: relative;
   padding: 10px;
 }
 
-.step{
+.step {
   background-color: #ff9a4b;
   padding: 3px;
   color: #fff;
@@ -37,51 +37,50 @@ main{
   left: 0px;
 }
 
-.box-img{
-  background-image: url(img/flow01.png);
+.box-img {
+  background-image: url(task1_img/flow01.png);
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
-.box-title{
+.box-title {
   margin: 15px 0 5px;
 }
 
-.box-img2{
-  background-image: url(img/flow02.png);
+.box-img2 {
+  background-image: url(task1_img/flow02.png);
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
-.box-img3{
-  background-image: url(img/flow03.png);
+.box-img3 {
+  background-image: url(task1_img/flow03.png);
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
-.box-space{
+.box-space {
   margin: 0 30px;
 }
 
-footer{
+footer {
   height: 50px;
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width:768px){
-  .main-child{
+@media screen and (max-width: 768px) {
+  .main-child {
     width: 100%;
     display: block;
   }
-  .box{
+  .box {
     width: 90%;
     margin: 0 auto;
-  }dwc_task
-
-  .box-space{
+  }
+  .box-space {
     margin: 20px auto;
   }
 }
